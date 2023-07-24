@@ -72,6 +72,9 @@
 }
 
 /* card  */
+.card {
+  height: 100%px;
+}
 .card_content {
   text-align: center;
   margin-top: 60px;
@@ -83,12 +86,13 @@
 }
 .icons {
   color: rgb(209, 209, 16);
-  font-size: larger;
+  font-size: 13px;
   opacity: 0.8;
   margin-top: 20px;
 }
 .price {
-  margin-left: 180px;
+  justify-content: end;
+  /* margin-left: 20px; */
   margin-top: 20px;
   font-size: larger;
   opacity: 0.7;
@@ -123,7 +127,7 @@ p a {
 }
 .fa-brands,
 .fa-solid {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 #site-search {
   padding: 5px 15px;
@@ -147,11 +151,10 @@ p a {
   header {
     display: none;
   }
-  .fa-brands,
-  .fa-solid {
-    margin-left: -10px;
-  }
 
+  .price {
+    margin-left: 20px;
+  }
   .copyright {
     margin-left: 10px;
   }
