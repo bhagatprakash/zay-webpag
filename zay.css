@@ -140,6 +140,9 @@ p a {
 }
 
 @media screen and (max-width: 479px) {
+  .card-1 img {
+    height: 290px;
+  }
   header {
     display: none;
   }
