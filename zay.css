@@ -13,6 +13,9 @@
 .icon i {
   margin-right: 10px;
 }
+#icon-i {
+  margin-left: 10px;
+}
 
 /* navbar */
 
@@ -125,9 +128,7 @@ p a {
 #site-search {
   padding: 5px 15px;
 }
-/* .sub_input {
-  background-color: black;
-} */
+
 .serch {
   background-color: green;
   padding: 5px 15px;
