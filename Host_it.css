@@ -61,16 +61,25 @@
   margin-right: -53px;
   text-decoration: none;
 }
-/* 
+.myCarousel {
+  position: relative;
+}
+
 .left {
-  margin-top: 500px;
-  margin-right: 20px;
+  position: absolute;
+  /* margin-top: 500px; */
+  /* margin-right: 20px; */
+  left: 0;
+  bottom: 0;
   color: #03a7d3;
 }
 .right {
-  margin-top: 500px;
-  margin-left: 20px;
-} */
+  position: absolute;
+  /* margin-top: 500px;
+  margin-left: 20px; */
+  right: 0;
+  left: 0;
+}
 
 /* card  */
 .card {
