@@ -19,9 +19,14 @@
 .collapse {
   text-align: center;
 }
-/* .navbar-nav {
+
+.navbar-nav {
   margin-left: 90px;
-} */
+}
+.navbar {
+  margin-bottom: 0px !important;
+}
+
 .nav-serch {
   margin-right: 50px;
   color: white;
@@ -63,22 +68,33 @@
 }
 .myCarousel {
   position: relative;
+
+}
+.right .carousel-control {
+  position: absolute;
+  /* top: 530; */
+  bottom: 0 !important;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #d90d0d;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 
 .left {
-  position: absolute;
-  /* margin-top: 500px; */
-  /* margin-right: 20px; */
-  left: 0;
-  bottom: 0;
-  color: #03a7d3;
+  /* position: absolute; */
+  /* left: 0;
+  bottom: 0; */
+  /* color: #03a7d3; */
 }
 .right {
-  position: absolute;
-  /* margin-top: 500px;
-  margin-left: 20px; */
-  right: 0;
-  left: 0;
+  /* position: absolute; */
+  /* right: 0;
+  left: 0; */
 }
 
 /* card  */
@@ -171,6 +187,33 @@
 }
 .see_datils:hover {
   background-color: #03a7d3;
+}
+/* textmonila */
+.textmonila {
+  font-size: 35px;
+  text-align: center;
+}
+.textmonila_p {
+  font-size: 20px;
+  text-align: center;
+}
+.box img {
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 10px;
+}
+.fa {
+  font-size: 30px;
+  margin-left: 650px;
+  margin-top: 20px;
+}
+.box {
+  display: flex;
+  /* border: 2px solid gainsboro; */
+}
+.client_info {
+  margin-left: 20px;
+  font-size: larger;
 }
 
 /* Get In Touch  */
