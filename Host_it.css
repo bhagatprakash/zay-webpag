@@ -11,7 +11,7 @@
 }
 .nav-item a {
   color: white;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .navbar-toggler {
   background-color: white;
@@ -27,7 +27,7 @@
   margin-bottom: 0px !important;
 }
 
-.nav-serch {
+.nav-item a {
   margin-right: 50px;
   color: white;
   text-decoration: none;
@@ -68,7 +68,6 @@
 }
 .myCarousel {
   position: relative;
-
 }
 .right .carousel-control {
   position: absolute;
@@ -109,6 +108,12 @@
   width: 30%;
   margin-top: 20px;
 }
+.card-title {
+  font-size: 25px;
+}
+.card-text {
+  font-size: larger;
+}
 
 /* about us  */
 .reed_more {
@@ -127,6 +132,9 @@
 .about_content {
   margin-top: 80px;
   margin-left: 50px;
+}
+.about_content p {
+  font-size: larger;
 }
 .img_about img {
   height: 500px;
@@ -153,7 +161,9 @@
   margin-top: 120px;
   margin-bottom: 30px;
 }
-
+.let_content p {
+  font-size: larger;
+}
 .ree_more {
   background-color: rgb(206, 16, 16);
   padding: 8px 20px;
@@ -177,6 +187,9 @@
 .pricing:hover {
   background-color: #03a7d3;
 }
+.pricing p {
+  font-size: larger;
+}
 .see_datils {
   background-color: rgb(206, 16, 16);
   padding: 8px 20px;
@@ -188,6 +201,13 @@
 .see_datils:hover {
   background-color: #03a7d3;
 }
+
+@media screen and (min-width: 480px) {
+  .see_datils {
+    margin-left: 210px;
+  }
+}
+
 /* textmonila */
 .textmonila {
   font-size: 35px;
@@ -229,6 +249,10 @@
   border: 2px solid red;
   background-color: aliceblue;
   color: red;
+}
+
+.form-control {
+  padding: 20px;
 }
 /* footer  */
 .footer_section {
