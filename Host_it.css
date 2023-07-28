@@ -108,6 +108,10 @@
   width: 30%;
   margin-top: 20px;
 }
+.card:hover img {
+  background-color: #d90d0d;
+}
+
 .card-title {
   font-size: 25px;
 }
@@ -122,6 +126,7 @@
   border-radius: 5px;
   border: none;
   color: white;
+  margin-top: 20px;
 }
 
 .reed_more:hover {
@@ -152,7 +157,7 @@
 .img_let img {
   width: 100%;
   height: 400px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .let_content {
