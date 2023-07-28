@@ -196,7 +196,7 @@
   border-radius: 5px;
   border: none;
   color: white;
-  margin-left: 80px;
+  margin-left: 120px;
 }
 .see_datils:hover {
   background-color: #03a7d3;
@@ -204,7 +204,7 @@
 
 @media screen and (min-width: 480px) {
   .see_datils {
-    margin-left: 210px;
+    /* margin-left: 210px; */
   }
 }
 
