@@ -6,33 +6,42 @@
 .body {
   font-family: Roboto, sans-serif;
 }
-.navbar-brand {
-  margin-left: 20px;
-}
-.nav-item a {
-  color: white;
-  /* margin-left: 50px; */
-}
-.navbar-toggler {
-  background-color: white;
-}
-.collapse {
+.navbar-nav,
+.form-inline,
+.btn {
+  /* background-color: white; */
   text-align: center;
 }
-
-.navbar-nav {
-  margin-left: 90px;
-}
-.navbar {
-  margin-bottom: 0px !important;
+.navbar-nav li {
+  align-items: end;
+  margin-left: 50px;
 }
 
-.nav-item a {
-  margin-right: 50px;
-  color: white;
-  text-decoration: none;
+.navs {
+  margin-bottom: 0px;
+}
+.btnss {
+  margin-left: 20px;
+}
+.iconss {
+  margin-left: 260px;
+  line-height: 10px;
+  font-size: larger;
 }
 
+@media screen and (max-width: 479px) {
+  .navs {
+    margin-bottom: 0px;
+  }
+  .btnss {
+    margin-left: 0px;
+  }
+  .iconss {
+    margin-left: 10px;
+    line-height: 10px;
+    font-size: larger;
+  }
+}
 /* slider  */
 .detail-box {
   color: white;
@@ -82,18 +91,6 @@
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
   opacity: 0.5;
-}
-
-.left {
-  /* position: absolute; */
-  /* left: 0;
-  bottom: 0; */
-  /* color: #03a7d3; */
-}
-.right {
-  /* position: absolute; */
-  /* right: 0;
-  left: 0; */
 }
 
 /* card  */
@@ -234,7 +231,6 @@
 }
 .box {
   display: flex;
-  /* border: 2px solid gainsboro; */
 }
 .client_info {
   margin-left: 20px;
