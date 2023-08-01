@@ -149,7 +149,7 @@
   width: 100px;
   margin-top: 20px;
 }
-.card:hover img .btn-2 {
+.card:hover img {
   background-color: #d90d0d;
 }
 .Read:hover {
@@ -395,4 +395,18 @@ p a:hover {
 .copyright {
   align-items: center;
   text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .see_datils {
+    margin: auto;
+  }
+  .btn_Send {
+    margin: auto;
+  }
+
+  .row {
+    align-items: center;
+    text-align: center;
+  }
 }
