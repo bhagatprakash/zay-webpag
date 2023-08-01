@@ -6,6 +6,9 @@
 .body {
   font-family: Roboto, sans-serif;
 }
+.header_section {
+  background-color: #020230;
+}
 .navbar-nav,
 .form-inline,
 .btn {
@@ -44,6 +47,9 @@
 }
 
 /* slider  */
+.slider {
+  background-color: #020230;
+}
 .textmonila {
   font-size: 35px;
   text-align: center;
@@ -102,6 +108,9 @@
   border-radius: 5px;
   font-size: larger;
 }
+/* .btn-box .btn-1:hover {
+  background-color: white;
+} */
 
 .btn-box .btn-2 {
   background-color: rgb(211, 53, 53);
@@ -395,6 +404,7 @@ p a:hover {
 .copyright {
   align-items: center;
   text-align: center;
+  font-size: larger;
 }
 
 @media screen and (max-width: 992px) {
