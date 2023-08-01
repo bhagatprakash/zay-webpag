@@ -139,15 +139,22 @@
   text-align: center;
   align-items: center;
   margin-top: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
 }
+
 .card img {
   background-color: #03a7d3;
   border-radius: 50%;
-  width: 30%;
+  height: 100px;
+  width: 100px;
   margin-top: 20px;
 }
-.card:hover img {
+.card:hover img .btn-2 {
   background-color: #d90d0d;
+}
+.Read:hover {
+  color: #d90d0d;
+  text-decoration: none;
 }
 
 .card-title {
@@ -203,6 +210,7 @@
   margin-left: 10px;
   margin-top: 120px;
   margin-bottom: 30px;
+  padding: 60px;
 }
 .let_content p {
   font-size: larger;
@@ -224,8 +232,9 @@
 /* Our Pricing */
 
 .pricing {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.293);
 }
 .pricing:hover {
   background-color: #03a7d3;
@@ -324,23 +333,23 @@
 }
 
 /* Get In Touch  */
-.Send {
+.btn_Send {
   background-color: orangered;
   color: white;
   padding: 8px 50px;
-  margin-left: 120px;
+  margin-left: 200px;
   font-size: larger;
   font-weight: bold;
 }
-.Send:hover {
+.btn_Send:hover {
   border: 2px solid red;
   background-color: aliceblue;
   color: red;
 }
-
-.form-control {
+#examp {
   padding: 20px;
 }
+
 /* footer  */
 .footer_section {
   height: 100%;
@@ -366,9 +375,15 @@ p a {
   font-size: larger;
   color: white;
 }
+.arow img {
+  color: white;
+}
 
 p a:hover {
   color: red;
+}
+#a1 {
+  padding: 7px;
 }
 
 .sociyal a {
@@ -376,11 +391,8 @@ p a:hover {
   color: white;
   margin-left: 5px;
 }
-.hr {
-  font-weight: bold;
-  color: white;
-  margin-top: 20px;
-}
+
 .copyright {
+  align-items: center;
   text-align: center;
 }
