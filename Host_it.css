@@ -108,9 +108,6 @@
   border-radius: 5px;
   font-size: larger;
 }
-/* .btn-box .btn-1:hover {
-  background-color: white;
-} */
 
 .btn-box .btn-2 {
   background-color: rgb(211, 53, 53);
@@ -241,7 +238,6 @@
 /* Our Pricing */
 
 .pricing {
-  /* border: 2px solid black; */
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.293);
 }
@@ -276,18 +272,28 @@
   border-radius: 50%;
   height: 150px;
   margin-top: 10px;
+  position: relative;
+  left: -150px;
 }
 .fa {
   font-size: 30px;
-  margin-left: 650px;
+  margin-left: 500px;
   margin-top: 20px;
 }
 .box {
   display: flex;
+  align-items: center;
+  padding: 20px 55px 20px 85px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 23px 0;
+  justify-content: center;
+  width: 100%;
 }
 .client_info {
-  margin-left: 20px;
+  margin-left: -120px;
   font-size: larger;
+  width: 100%;
 }
 .Testimonials {
   text-align: center;
@@ -303,28 +309,42 @@
 }
 .dipak1 {
   padding: 20px 20px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 @media screen and (max-width: 992px) {
+  .detail-boxs {
+    width: 100%;
+    margin-left: 80px;
+    text-align: start;
+  }
   .box {
     flex-direction: column;
   }
+
+  .box img {
+    margin-left: 250px;
+    position: absolute;
+    top: -20px;
+    margin-bottom: 20px;
+  }
+  .client_info {
+    word-spacing: 10px;
+  }
+
   .dipak {
     padding: 20px 20px;
     margin-right: 1px;
-    margin-top: 600px;
+    margin-top: 730px;
     margin-left: 256px;
   }
   .dipak1 {
     padding: 20px 20px;
     margin-left: 1px;
-    margin-top: 600px;
+    margin-top: 730px;
     margin-right: 296px;
   }
-  img {
-    margin-right: 0px;
-  }
+
   .next {
     margin-top: 985px;
     margin-left: 1px;
